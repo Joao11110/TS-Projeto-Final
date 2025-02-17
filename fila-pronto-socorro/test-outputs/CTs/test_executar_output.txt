@@ -1,0 +1,9 @@
+test_CT1_executar (__main__.TestTerminalClientExecutar.test_CT1_executar)
+CT1 = [1,2,3,4,5,7,9,11,13,14] conforme o grafo: ... ok
+test_CT2_executar (__main__.TestTerminalClientExecutar.test_CT2_executar)
+CT2 = [1,2,3,4,5,7,9,11,13,15,16,2,3,4,5,7,9,11,13,14] ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+OK

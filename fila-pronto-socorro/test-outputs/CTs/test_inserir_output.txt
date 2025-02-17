@@ -1,0 +1,7 @@
+test_CT1_inserir (__main__.TestFilaAtendimentoInserir.test_CT1_inserir)
+Verifica se o método inserir percorre o caminho [1, 2, 3, 4] com sucesso. ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK

@@ -1,0 +1,7 @@
+test_chamar_proximo_fila_nao_vazia (__main__.TestRF4.test_chamar_proximo_fila_nao_vazia) ... ok
+test_chamar_proximo_fila_vazia (__main__.TestRF4.test_chamar_proximo_fila_vazia) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

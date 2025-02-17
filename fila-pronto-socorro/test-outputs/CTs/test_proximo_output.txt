@@ -1,0 +1,9 @@
+test_CT1_proximo (__main__.TestFilaAtendimentoProximo.test_CT1_proximo)
+CT1 = [1, 2, 3, 5]: ... ok
+test_CT2_proximo (__main__.TestFilaAtendimentoProximo.test_CT2_proximo)
+CT2 = [1, 2, 4]: ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK

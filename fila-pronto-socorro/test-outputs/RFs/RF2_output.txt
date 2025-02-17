@@ -1,0 +1,36 @@
+test_triagem_invalida (__main__.TestRF2.test_triagem_invalida) ... FAIL
+test_triagens_validas (__main__.TestRF2.test_triagens_validas) ... 
+  test_triagens_validas (__main__.TestRF2.test_triagens_validas) (risco_morte=True, gravidade_alta=False) ... FAIL
+  test_triagens_validas (__main__.TestRF2.test_triagens_validas) (risco_morte=False, gravidade_alta=True) ... FAIL
+
+======================================================================
+FAIL: test_triagem_invalida (__main__.TestRF2.test_triagem_invalida)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/joao/BTI/6º SEMESTRE/TS/fila-pronto-socorro/test/test_RT2.py", line 31, in test_triagem_invalida
+    with self.assertRaises(ValidacaoError) as cm:
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: ValidacaoError not raised
+
+======================================================================
+FAIL: test_triagens_validas (__main__.TestRF2.test_triagens_validas) (risco_morte=True, gravidade_alta=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/joao/BTI/6º SEMESTRE/TS/fila-pronto-socorro/test/test_RT2.py", line 28, in test_triagens_validas
+    self.assertEqual(ficha.risco_morte, risco_esperado)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: True != <Risco.VERMELHO: 1>
+
+======================================================================
+FAIL: test_triagens_validas (__main__.TestRF2.test_triagens_validas) (risco_morte=False, gravidade_alta=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/joao/BTI/6º SEMESTRE/TS/fila-pronto-socorro/test/test_RT2.py", line 28, in test_triagens_validas
+    self.assertEqual(ficha.risco_morte, risco_esperado)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False != <Risco.LARANJA: 2>
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.002s
+
+FAILED (failures=3)

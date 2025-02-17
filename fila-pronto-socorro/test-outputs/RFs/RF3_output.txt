@@ -1,0 +1,20 @@
+test_fila_vazia (__main__.TestRF3.test_fila_vazia) ... ok
+test_mesma_prioridade (__main__.TestRF3.test_mesma_prioridade) ... ERROR
+test_prioridade_maxima (__main__.TestRF3.test_prioridade_maxima) ... ok
+
+======================================================================
+ERROR: test_mesma_prioridade (__main__.TestRF3.test_mesma_prioridade)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/joao/BTI/6º SEMESTRE/TS/fila-pronto-socorro/test/test_RF3.py", line 26, in test_mesma_prioridade
+    self.fila.inserir(Atendimento(paciente2, Risco.LARANJA))
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/joao/BTI/6º SEMESTRE/TS/fila-pronto-socorro/main/domain.py", line 119, in inserir
+    heapq.heappush(self.fila, (atendimento.risco.value, atendimento))
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<' not supported between instances of 'Atendimento' and 'Atendimento'
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+FAILED (errors=1)

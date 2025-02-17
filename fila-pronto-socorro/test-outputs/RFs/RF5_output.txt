@@ -1,0 +1,7 @@
+test_buscar_cpf_nao_registrado (__main__.TestRF5.test_buscar_cpf_nao_registrado) ... ok
+test_buscar_cpf_registrado (__main__.TestRF5.test_buscar_cpf_registrado) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
